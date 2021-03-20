@@ -16,14 +16,12 @@ public class Task11 {
         ArrayList<String> list= new ArrayList<String>();
         String text = "";
 
-
         do{
            text = scanner.next();
            list.add(text);
 
         }while(!text.equals("Enough!"));
             list.remove("Enough!");
-
 
         int largestString = list.get(0).length();
         int index=0 ;
