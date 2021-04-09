@@ -7,5 +7,17 @@ package com.coding.livecoding;
 // the program should write "5" as the length of the longest
 // increasing subsequence (underlined in the example)
 
+import java.util.Scanner;
+
 public class Task16 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int [] array = new int [10];
+        for(int i=0; i<10; i++){
+            array[i]= scanner.nextInt();
+        }
+        
+
+
+    }
 }
